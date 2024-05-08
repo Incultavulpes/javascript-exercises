@@ -1,3 +1,5 @@
+// We declare the remove function here because of some behavior on part of the hoisting
+
 const remove = function (string) {
     arstring = string.split("");
     arstring = arstring.filter((element) => {
